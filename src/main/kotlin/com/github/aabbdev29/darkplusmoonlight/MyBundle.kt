@@ -1,4 +1,4 @@
-package org.jetbrains.plugins.template
+package com.github.aabbdev29.darkplusmoonlight
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls
