@@ -1,0 +1,98 @@
+
+{
+  "name": " Dark Plus Moon Light",
+  "dark": true,
+  "author": "aabbdev29",
+  "editorScheme": "theme/dark.plus.moon.light.theme.xml",
+  "colors": {
+    "background": "#171b22",
+    "editor": "#171b22",
+    "inactiveTab": "#2d2d2d",
+    "selection": "#094770",
+    "text": "#c2c2c2",
+    "selectedText": "#ffffff",
+    "inactiveSelection": "#2a2d2e",
+    "accent": "#4a88c7",
+    "menuBorder": "#454545"
+  },
+  "ui": {
+    "*": {
+      "foreground": "text",
+     "background": "background",
+      "selectionBackground": "selection",
+      "selectionForeground": "selectedText",
+      "separatorColor": "menuBorder",
+      "arc": 8
+    },
+    "MainToolbar": {
+      "background": "background"
+    },
+    "Editor": {
+      "background": "editor"
+    },
+    "Borders": {
+      "color": "background",
+      "ContrastBorderColor": "background"
+    },
+    "DefaultTabs": {
+      "background": "inactiveTab",
+      "hoverBackground": "inactiveTab",
+      "borderColor": "background"
+    },
+    "EditorTabs": {
+      "underlineHeight": 3,
+      "inactiveUnderlineColor": "accent",
+      "underlineColor": "accent",
+      "underlinedTabBackground": "editor",
+      "underlinedTabForeground": "selectedText",
+
+      "selectedBackground": "inactiveTab"
+    },
+    "Panel" : {
+      "foreground": "#acacac"
+    },
+    "Tree": {
+      "modifiedItemForeground": "accent",
+      "selectionInactiveBackground": "inactiveSelection",
+      "Selection.arc": 0
+    },
+    "Menu": {
+      "borderColor": "menuBorder"
+    },
+    "Popup": {
+      "borderColor": "menuBorder"
+    },
+    "PopupMenuSeparator": {
+      "height": 13,
+      "stripeIndent": 6,
+      "stripeWidth": 1
+    },
+    "MenuBar": {
+      "borderColor": "background"
+    },
+    "NavBar": {
+      "borderColor": "#323232"
+    },
+    "Button": {
+      "arc": 2
+    },
+    "StatusBar": {
+      "borderColor": "background"
+    },
+    "ToolWindow": {
+      "Header": {
+        "borderColor": "background",
+        "inactiveBackground": "background"
+      },
+      "Button": {
+        "hoverBackground": "inactiveSelection"
+      }
+    }
+  },
+  "background": {
+    "image": "img/bg.png",
+    "transparency": 10,
+    "fill": "scale",
+    "anchor": "center"
+  }
+}
